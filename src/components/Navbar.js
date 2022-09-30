@@ -16,7 +16,7 @@ export default function Navbar(props) {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <abbr className={`navbar-brand text-${props.mode==='light' ? 'dark' : 'light'}`} aria-current="page"><b>{props.title}</b></abbr>
+                <h1 className={`navbar-brand my-1 text-${props.mode==='light' ? 'dark' : 'light'}`} aria-current="page">{props.title}</h1>
               </li>
               {/* <li className="nav-item">
                 <a className={`nav-link text-${props.mode==='light' ? 'dark' : 'light'}`} href="/About">{props.aboutTitle}</a>

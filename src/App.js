@@ -45,8 +45,8 @@ function App() {
       {/* <Navbar /> */}
       <Navbar title="TextUtils" homeTitle="Home" aboutTitle="About us" mode={mode} btnText={btnText} toggleMode={toggleMode}/>
       <Alert alert={alert}/>
-      <div className="container my-3">
-      <TextForm showAlert={showAlert} heading="Enter the text to analyze" mode={mode}/>
+      <div className="container my-2">
+        <TextForm showAlert={showAlert} heading="Try TextUtils - Word Counter, Character Counter, Remove Extra Spaces" mode={mode}/>
         {/* <Routes> */}
           {/* <Route exact path="/" element={}/> */}
           {/* <Route exact path="/About" element = {<About mode={mode} toggleMode={toggleMode}/>}/> */}
