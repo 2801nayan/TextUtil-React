@@ -9,13 +9,13 @@ This project is bootstrapped with [Create React App](https://github.com/facebook
 
 ## Available features of TextUtil
 
-Theme - dark or light
-Copy all text
-Clear all text
-Upper case convert
-Lower case convert
-Camel case convert
-Remove Extra Spaces  
-Text Preview
-Time to read text
-word and character counter
+Theme - dark or light,
+Copy all text,
+Clear all text,
+Upper case convert,
+Lower case convert,
+Camel case convert,
+Remove Extra Spaces,  
+Text Preview,
+Time to read text,
+word and character counter. 
