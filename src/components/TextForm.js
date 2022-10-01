@@ -19,8 +19,12 @@ export default function TextForm(props) {
   }
   const convertCamelCase = ()=>{
     newText = text.toLowerCase();
-    setText(newText.split(" ").reduce((s,c)=> s + (c.charAt(0).toUpperCase()+ c.slice(1) )));
-    props.showAlert("Converted to camel case","success");   
+    if(text.split(/\s+/).length===1){
+      props.showAlert("Can't convert one word into camelcase","warning");     
+    }else{
+      setText(newText.split(/\s+/).reduce((s,c)=> s + (c.charAt(0).toUpperCase()+ c.slice(1) )));
+      props.showAlert("Converted to camel case","success");   
+    }
   }
   const clearText = () => {
     newText = '';
