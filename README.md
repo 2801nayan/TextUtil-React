@@ -4,7 +4,7 @@ This project is bootstrapped with [Create React App](https://github.com/facebook
 
 ## You might be thinking that what is TextUtil? so lets know about it
 
-### TextUtils is the tool which will help you to reduce some stress or we can say task related to text like convert into uppercase, lowercase, camelcase, clear text, copy text so thats what TextUtil is going to provide.
+TextUtils is the tool which will help you to reduce some stress or we can say task related to text like convert into uppercase, lowercase, camelcase, clear text, copy text so thats what TextUtil is going to provide.
 
 
 ## Available features of TextUtil
